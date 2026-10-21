@@ -1,0 +1,44 @@
+INSURANCE CLAIM PROCESSING REPORT
+
+Claim ID: CLM-10003
+Policy ID: POL-20003
+
+Decision: MANUAL REVIEW
+Final Status: Pending Review
+
+Claim Amount: 9500.00
+Coverage Limit: 10000.00
+Approved Amount: 0.00
+
+1. DOCUMENT VERIFICATION
+Status: Verified
+Assessment: All required documents are present.
+Missing Documents: []
+
+2. POLICY ELIGIBILITY
+Status: Eligible
+Assessment: The policy status is active.
+
+3. FRAUD-RISK ASSESSMENT
+Risk Level: High
+Assessment: Potential risk indicators were identified. Human review is recommended; these indicators do not establish that fraud has occurred.
+Indicators: ['The claim amount is at least 80% of the coverage limit.', 'Three or more previous claims were reported.', 'The user flagged the claim for high-risk review.', 'Additional review notes were provided.']
+
+4. CLAIM ASSESSMENT
+Status: Within Coverage Limit
+Assessment: The claim amount (9,500.00) is within the coverage limit (10,000.00).
+
+Human Review Required: Yes
+
+Additional Issues:
+The claim amount is at least 80% of the coverage limit.
+Three or more previous claims were reported.
+The user flagged the claim for high-risk review.
+Additional review notes were provided.
+
+Note: This is a demonstration workflow, not a real insurance
+coverage determination or a finding of fraud.
+
+5. HUMAN APPROVAL
+Status: Pending Human Approval
+Assessment: Human review is required. No final human decision has been recorded.
